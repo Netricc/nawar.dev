@@ -1,0 +1,109 @@
+.portfolio{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--third-color);
+}
+
+.portfolio .container{
+    padding: 160px 0;
+
+}
+
+.portfolio .title{
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+}
+
+.portfolio .box {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Corrected the typo */
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolio .card{
+    width: 1060px;
+    height: 370px;
+    /* box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.295); */
+    position: relative;
+    border-top: 3px solid gray;
+    /* border-bottom: 4px solid gray; */
+    /* border: 3px solid var(--secondary-color); */
+}
+
+.portfolio .card .container{
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio .card .content{
+    padding: 40px 0;
+    height: 370px;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.portfolio .card .content .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio .card .content .card_role{
+    color: var(--third-color);
+    font-size: 16px;
+    padding: 6px 12px;
+    background: var(--primary-color);
+    width: 180px;
+    text-align: center;
+    border-radius: 999px;
+}
+
+.portfolio .card .content .card-title{
+    font-size: 64px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 500px;
+}
+
+.portfolio .card .content .card-description{
+    font-size: 16px;
+}
+
+.portfolio .card .image{
+    width: 50%;
+    position: relative;
+    
+}
+
+.portfolio .card .image img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translateX(-20px) translateY(-140px);
+    border: 2px solid var(--primary-color);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.hoverDiv span{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--third-color);
+    font-size: 20px;
+}
+
+
